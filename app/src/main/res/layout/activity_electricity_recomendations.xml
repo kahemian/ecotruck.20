@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A2AA5C"
+    android:background="#FBFBFB"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".ElectricityRecomendations">
@@ -18,14 +18,15 @@
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="216dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/elect" />
+            android:background="#FBFAFA"
+            app:srcCompat="@drawable/cinsejos" />
     </LinearLayout>
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -39,20 +40,19 @@
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Consejos de electricidad"
+                android:layout_margin="5dp"
+                android:text="Como  empezar a reciclar"
                 android:textAlignment="center"
                 android:textColor="#114B79"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:layout_margin="5dp"
-                />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView9"
-                android:layout_width="match_parent"
+                android:layout_width="372dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
                 android:text="@string/recommendation_electricity_1"
+                android:textColor="#0B0A0A"
                 android:textStyle="italic" />
 
             <TextView
@@ -61,7 +61,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/recommendation_electricity_2"
-                android:textStyle="italic"/>
+                android:textColor="#0B0B0B"
+                android:textStyle="italic" />
 
             <TextView
                 android:id="@+id/textView13"
@@ -69,13 +70,16 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/recommendation_electricity_3"
+                android:textColor="#0E0E0E"
                 android:textStyle="italic" />
+
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="@string/recommendation_electricity_4"
+                android:textColor="#0B0A0A"
                 android:textStyle="italic" />
 
             <Button

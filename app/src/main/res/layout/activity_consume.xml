@@ -4,33 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A2AA5C"
+    android:background="#FDFDFC"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".ConsumeActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:background="#407842"
-        android:orientation="horizontal">
-
-    </LinearLayout>
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="250dp"
-        app:srcCompat="@drawable/premium_vector___ecology_concept_and_clean_energy_vector_illustration" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="AhorraVoltios"
-        android:textColor="#2C572E"
-        android:textSize="60sp"
-        android:textStyle="bold" />
+        android:layout_height="292dp"
+        app:srcCompat="@drawable/image_removebg_preview__1_" />
 
     <Button
         android:id="@+id/buttonConsumeWater"

@@ -1,12 +1,15 @@
 <resources>
-    <string name="app_name">AhorraVoltios_04</string>
+    <string name="app_name">Eco truck</string>
     <string name="success_consume">Su consumo esta por debajo del promedio, felicitaciones</string>
     <string name="recommendation_text">A continuación, se listan algunas recomendaciones para que reduzcas tú consumo</string>
     <string name="recommendation_water_1">1. Verificar que ninguna llave este abierta, cuando salgas de casa</string>
     <string name="recommendation_water_2">2. Si se presenta una fuga de agua, llamar a un técnico de forma oportuna</string>
     <string name="recommendation_water_3">3. Dejar la ducha abierta durante 5 minutos equivale a 12 litros de agua, asegurarse de usar el agua necesaria</string>
-    <string name="recommendation_electricity_1">1. Desconectar dispositivo despues de usarlos</string>
-    <string name="recommendation_electricity_2">2. Al salir de casa asegurarse de dejar todas las luces apagadas</string>
-    <string name="recommendation_electricity_3">3. Si un enchufe o toma produce cortos, contactar rapidamente a un técnico</string>
-    <string name="recommendation_electricity_4">4. Evitar conectar multiples dispositivos en el mismo toma, para prevenir una sobrecarga</string>
+    <string name="recommendation_electricity_1">1. Separa tus residuos: Divide tus desechos en categorías como papel, plástico, vidrio y orgánicos. Facilita la recolección y el reciclaje.</string>
+    <string name="recommendation_electricity_2">2. Reduce y reutiliza:
+Opta por productos con menos envases y busca alternativas reutilizables. La reducción y reutilización son pasos importantes antes del reciclaje.</string>
+    <string name="recommendation_electricity_3">3. Consulta los símbolos de reciclaje:
+Familiarízate con los símbolos de reciclaje en los envases. Estos indican el tipo de material y facilitan la identificación para un reciclaje más eficiente.</string>
+    <string name="recommendation_electricity_4">4. Apoya iniciativas locales:
+Investiga programas de reciclaje en tu área y apoya iniciativas locales. Participar en eventos comunitarios de reciclaje puede ser una forma efectiva de contribuir.</string>
 </resources>
